@@ -1,7 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="38a24fd3-97bc-4dff-a7ea-949f8e292ff7" name="Default Changelist" comment="" />
+    <list default="true" id="38a24fd3-97bc-4dff-a7ea-949f8e292ff7" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/big score/Game.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/big score/Player.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.big score/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.big score/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.big score/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.big score/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/big score/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/big score/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/big score/bin/Debug/netcoreapp2.2/big score.dll" beforeDir="false" afterPath="$PROJECT_DIR$/big score/bin/Debug/netcoreapp2.2/big score.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/big score/bin/Debug/netcoreapp2.2/big score.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/big score/bin/Debug/netcoreapp2.2/big score.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/big score/obj/Debug/netcoreapp2.2/big score.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/big score/obj/Debug/netcoreapp2.2/big score.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/big score/obj/Debug/netcoreapp2.2/big score.dll" beforeDir="false" afterPath="$PROJECT_DIR$/big score/obj/Debug/netcoreapp2.2/big score.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/big score/obj/Debug/netcoreapp2.2/big score.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/big score/obj/Debug/netcoreapp2.2/big score.pdb" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -9,16 +20,22 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/big score/Program.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="12" column="52" lean-forward="true" selection-start-line="12" selection-start-column="52" selection-end-line="12" selection-end-column="52" />
+            <state relative-caret-position="380">
+              <caret line="36" column="70" selection-start-line="36" selection-start-column="70" selection-end-line="36" selection-end-column="70" />
               <folding>
-                <marker date="1548678286787" expanded="true" signature="35:464" ph="{...}" />
-                <marker date="1548678286787" expanded="true" signature="55:462" ph="{...}" />
-                <marker date="1548678286787" expanded="true" signature="222:447" ph="{...}" />
+                <marker date="1548767933464" expanded="false" signature="6:32" ph="..." />
+                <marker date="1548767933464" expanded="true" signature="54:1307" ph="{...}" />
+                <marker date="1548767933464" expanded="true" signature="74:1305" ph="{...}" />
+                <marker date="1548767933464" expanded="true" signature="249:1299" ph="{...}" />
+                <marker date="1548767933464" expanded="true" signature="263:579" ph="/* HighscoreHandler handler = new HighscoreHandler(this.highScores); ... */" />
+                <marker date="1548767933464" expanded="true" signature="616:972" ph="{...}" />
+                <marker date="1548767933464" expanded="true" signature="650:958" ph="{...}" />
+                <marker date="1548767933464" expanded="true" signature="683:798" ph="{...}" />
+                <marker date="1548767933464" expanded="true" signature="831:940" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -27,10 +44,10 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/big score/HighscoreHandler.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="336">
-              <caret line="133" column="35" selection-start-line="133" selection-start-column="35" selection-end-line="133" selection-end-column="35" />
+            <state>
+              <caret line="7" column="16" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="16" />
               <folding>
-                <marker date="1548678488813" expanded="true" signature="6:105" ph="..." />
+                <marker date="1548678488813" expanded="false" signature="6:105" ph="..." />
                 <marker date="1548678488813" expanded="true" signature="127:4047" ph="{...}" />
                 <marker date="1548678488813" expanded="true" signature="163:4045" ph="{...}" />
                 <marker date="1548678488813" expanded="true" signature="295:940" ph="{...}" />
@@ -67,17 +84,56 @@
           </provider>
         </entry>
       </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/big score/Player.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="225">
+              <caret line="15" column="1" lean-forward="true" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
+              <folding>
+                <marker date="1548767891608" expanded="true" signature="6:52" ph="..." />
+                <marker date="1548767891608" expanded="true" signature="74:425" ph="{...}" />
+                <marker date="1548767891608" expanded="true" signature="100:423" ph="{...}" />
+                <marker date="1548767891608" expanded="true" signature="272:417" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/big score/Game.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="14" column="18" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="18" />
+              <folding>
+                <marker date="1548767754726" expanded="true" signature="6:71" ph="..." />
+                <marker date="1548767754726" expanded="true" signature="93:606" ph="{...}" />
+                <marker date="1548767754726" expanded="true" signature="117:604" ph="{...}" />
+                <marker date="1548767754726" expanded="true" signature="405:473" ph="{...}" />
+                <marker date="1548767754726" expanded="true" signature="526:598" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
     </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/big score/HighscoreHandler.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/big score/Player.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/big score/Game.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/big score/Program.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/2F366371-56B6-45AF-BF84-A73E8EBB576D/cf/1d232f2b/Enumerable.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/big score/Program.cs" />
         <option value="$PROJECT_DIR$/big score/HighscoreHandler.cs" />
+        <option value="$PROJECT_DIR$/big score/Game.cs" />
+        <option value="$PROJECT_DIR$/big score/Player.cs" />
+        <option value="$PROJECT_DIR$/big score/Program.cs" />
       </list>
     </option>
   </component>
@@ -87,12 +143,12 @@
     <option name="width" value="1400" />
     <option name="height" value="1000" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator currentView="SolutionExplorer" proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="FileSystemExplorer" />
       <pane id="SolutionExplorer">
         <subPane>
           <expand>
@@ -111,6 +167,7 @@
         <option name="show-all-files" value="false" />
       </pane>
       <pane id="AssemblyExplorer" />
+      <pane id="FileSystemExplorer" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -169,12 +226,13 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1548675617581</updated>
-      <workItem from="1548675618891" duration="2875000" />
+      <workItem from="1548675618891" duration="3215000" />
+      <workItem from="1548766088561" duration="1845000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2875000" />
+    <option name="totallyTimeSpent" value="5060000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -189,38 +247,38 @@
     <frame x="0" y="0" width="1920" height="1080" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Favorites" side_tool="true" />
-      <window_info id="Image Layers" />
-      <window_info id="Capture Tool" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2497332" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2524013" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="NuGet" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Unit Tests" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="bottom" id="Database Changes" />
-      <window_info anchor="bottom" id="Build" weight="0.32984293" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Capture Tool" order="3" />
+      <window_info id="Favorites" order="4" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32984293" />
-      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.4" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32948583" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.39979014" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Capture Analysis" />
-      <window_info anchor="right" id="Errors In Solution" weight="0.32977587" />
-      <window_info anchor="right" id="Database" />
+      <window_info anchor="bottom" id="NuGet" order="7" />
+      <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="bottom" id="Database Changes" order="10" />
+      <window_info anchor="bottom" id="Unit Tests" order="11" />
+      <window_info anchor="bottom" id="Terminal" order="12" weight="0.33053514" />
+      <window_info anchor="bottom" id="Event Log" order="13" side_tool="true" />
+      <window_info anchor="bottom" id="Build" order="14" weight="0.32948583" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Capture Analysis" order="3" />
+      <window_info anchor="right" id="Errors In Solution" order="4" weight="0.32977587" />
+      <window_info anchor="right" id="Database" order="5" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
-  <component name="UnityProjectConfiguration" hasMinimizedUI="null" />
+  <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
   <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -235,10 +293,10 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/big score/HighscoreHandler.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="133" column="35" selection-start-line="133" selection-start-column="35" selection-end-line="133" selection-end-column="35" />
+        <state>
+          <caret line="7" column="16" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="16" />
           <folding>
-            <marker date="1548678488813" expanded="true" signature="6:105" ph="..." />
+            <marker date="1548678488813" expanded="false" signature="6:105" ph="..." />
             <marker date="1548678488813" expanded="true" signature="127:4047" ph="{...}" />
             <marker date="1548678488813" expanded="true" signature="163:4045" ph="{...}" />
             <marker date="1548678488813" expanded="true" signature="295:940" ph="{...}" />
@@ -274,14 +332,54 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/2F366371-56B6-45AF-BF84-A73E8EBB576D/cf/1d232f2b/Enumerable.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="181">
+          <caret line="3134" column="6" selection-start-line="3134" selection-start-column="6" selection-end-line="3134" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/big score/Game.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="18" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="18" />
+          <folding>
+            <marker date="1548767754726" expanded="true" signature="6:71" ph="..." />
+            <marker date="1548767754726" expanded="true" signature="93:606" ph="{...}" />
+            <marker date="1548767754726" expanded="true" signature="117:604" ph="{...}" />
+            <marker date="1548767754726" expanded="true" signature="405:473" ph="{...}" />
+            <marker date="1548767754726" expanded="true" signature="526:598" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/big score/Player.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="1" lean-forward="true" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
+          <folding>
+            <marker date="1548767891608" expanded="true" signature="6:52" ph="..." />
+            <marker date="1548767891608" expanded="true" signature="74:425" ph="{...}" />
+            <marker date="1548767891608" expanded="true" signature="100:423" ph="{...}" />
+            <marker date="1548767891608" expanded="true" signature="272:417" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/big score/Program.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="52" lean-forward="true" selection-start-line="12" selection-start-column="52" selection-end-line="12" selection-end-column="52" />
+        <state relative-caret-position="380">
+          <caret line="36" column="70" selection-start-line="36" selection-start-column="70" selection-end-line="36" selection-end-column="70" />
           <folding>
-            <marker date="1548678286787" expanded="true" signature="35:464" ph="{...}" />
-            <marker date="1548678286787" expanded="true" signature="55:462" ph="{...}" />
-            <marker date="1548678286787" expanded="true" signature="222:447" ph="{...}" />
+            <marker date="1548767933464" expanded="false" signature="6:32" ph="..." />
+            <marker date="1548767933464" expanded="true" signature="54:1307" ph="{...}" />
+            <marker date="1548767933464" expanded="true" signature="74:1305" ph="{...}" />
+            <marker date="1548767933464" expanded="true" signature="249:1299" ph="{...}" />
+            <marker date="1548767933464" expanded="true" signature="263:579" ph="/* HighscoreHandler handler = new HighscoreHandler(this.highScores); ... */" />
+            <marker date="1548767933464" expanded="true" signature="616:972" ph="{...}" />
+            <marker date="1548767933464" expanded="true" signature="650:958" ph="{...}" />
+            <marker date="1548767933464" expanded="true" signature="683:798" ph="{...}" />
+            <marker date="1548767933464" expanded="true" signature="831:940" ph="{...}" />
           </folding>
         </state>
       </provider>
