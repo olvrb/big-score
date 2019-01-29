@@ -33,8 +33,9 @@ namespace big_score {
             game.GetPlayerByName("oliver").AddScore(500);
             Console.WriteLine(game.GetHighscoreOf("oliver"));
 
-
-            switch (this.NewMenu()) {
+            int selectedOptions = this.NewMenu();
+            Console.Clear();
+            switch (selectedOptions) {
                 case 0: {
                     Console.WriteLine(string.Join(Environment.NewLine,
                                                   game.AllScores.Select(x => x.ToString())
