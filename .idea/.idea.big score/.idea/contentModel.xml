@@ -9,7 +9,6 @@
     <e p="$PROJECT_DIR$" t="IncludeFlat">
       <e p="big score" t="IncludeRecursive">
         <e p="Game.cs" t="Include" />
-        <e p="HighscoreHandler.cs" t="Include" />
         <e p="Player.cs" t="Include" />
         <e p="Program.cs" t="Include" />
         <e p="big score.csproj" t="IncludeRecursive" />

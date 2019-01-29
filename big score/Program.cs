@@ -3,30 +3,25 @@ using System.Linq;
 
 namespace big_score {
     class Program {
-        private string[] highScores = {"100 sara", "300 oliver", "50 oliver"};
+        private readonly string[] _highScores = {"100 sara", "300 oliver", "50 oliver"};
 
         private static void Main(string[] args) => new Program().Init();
 
         int Init() {
-            // HighscoreHandler handler = new HighscoreHandler(this.highScores);
+            // Game game = new Game {
+            //     Players = new[] {
+            //         new Player {
+            //             Name   = "oliver",
+            //             Scores = new[] {300, 50}
+            //         },
+            //         new Player {
+            //             Name   = "sara",
+            //             Scores = new[] {100}
+            //         }
+            //     }
+            // };
 
-            // Console.WriteLine(handler.BestScoreOf("sara"));
-            // Console.WriteLine(handler.GetAverage());
-            // Console.WriteLine(handler.AddScore(100, "eric").Last());
-            // Console.WriteLine(handler.GetAverage());
-
-            Game game = new Game() {
-                Players = new[] {
-                    new Player {
-                        Name   = "oliver",
-                        Scores = new[] {300, 50}
-                    },
-                    new Player {
-                        Name   = "sara",
-                        Scores = new[] {100}
-                    }
-                }
-            };
+            Game game = new Game {Players = Game.ParseScoreArray(_highScores)};
 
             Console.WriteLine(game.Highscore);
             Console.WriteLine(game.AverageScore);
@@ -36,6 +31,8 @@ namespace big_score {
             game.GetPlayerByName("oliver").AddScore(500);
             Console.WriteLine(game.GetHighscoreOf("oliver"));
 
+
+            Console.ReadLine();
             return 0;
         }
     }
