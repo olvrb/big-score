@@ -1,7 +1,5 @@
-using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Runtime.CompilerServices;
 
 namespace big_score {
     public class Game {
@@ -31,7 +29,7 @@ namespace big_score {
                 int      s          = int.Parse(properties[0]);
 
                 // If player already exists, add the score to it.
-                var oldPlayer = players.SingleOrDefault(x => x.Name == name);
+                Player oldPlayer = players.SingleOrDefault(x => x.Name == name);
                 if (oldPlayer != null) {
                     oldPlayer.AddScore(s);
                 }
@@ -44,6 +42,10 @@ namespace big_score {
             }
 
             return players.ToArray();
+        }
+
+        public Game(Player[] players = null) {
+            this.Players = players;
         }
     }
 }

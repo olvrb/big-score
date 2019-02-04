@@ -1,15 +1,15 @@
 ﻿using System;
 using System.Linq;
-using System.Runtime.ConstrainedExecution;
 
 namespace big_score {
     class Program {
         private readonly string[] _highScores = {"100 sara", "300 oliver", "50 oliver"};
         private readonly string[] _options    = {"0. Visa high scores.", "1. Visa unika namn.", "2. Visa en användares bästa poäng.", "3. Visa medelpoäng."};
 
+        // ReSharper disable once UnusedParameter.Local
         private static void Main(string[] args) => new Program().Init();
 
-        int Init() {
+        void Init() {
             // Game game = new Game {
             //     Players = new[] {
             //         new Player {
@@ -23,7 +23,7 @@ namespace big_score {
             //     }
             // };
 
-            Game game = new Game {Players = Game.ParseScoreArray(_highScores)};
+            Game game = new Game {Players = Game.ParseScoreArray(this._highScores)};
 
             Console.WriteLine(game.Highscore);
             Console.WriteLine(game.AverageScore);
@@ -37,7 +37,8 @@ namespace big_score {
             Console.Clear();
             switch (selectedOptions) {
                 case 0: {
-                    Console.WriteLine(string.Join(Environment.NewLine,
+                    Console.WriteLine(string.Join(
+                                                  Environment.NewLine,
                                                   game.AllScores.Select(x => x.ToString())
                                                  )
                                      );
@@ -54,19 +55,19 @@ namespace big_score {
                 case 2: {
                     Console.Write("Användarens namn: ");
                     string input = Console.ReadLine();
-                    Console.WriteLine(game.GetPlayerByName(input.Trim()).Highscore);
+                    
+                    // Can apparently be null...?
+                    if (input != null) {
+                        Console.WriteLine(game.GetPlayerByName(input.Trim()).Highscore);
+                    }
+
                     break;
                 }
                 case 3: {
                     Console.WriteLine(game.AverageScore);
                     break;
                 }
-                default: {
-                    break;
-                }
             }
-
-            return 0;
         }
 
         private int NewMenu() {
